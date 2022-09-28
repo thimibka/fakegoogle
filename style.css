@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#container {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    font: 13px/27px Roboto, Arial, sans-serif;
+
+}
+
+.element {
+    margin: 15px;
+}
+
+.menu {
+    display: flex;
+    width: 16px;
+    height: 16px;
+
+}
+
+.icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+
+}
+
+
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+#logoGoogle {
+    width: 300px;
+    height: 100PX;
+}
+
+.navbare {
+    display: flex;
+    justify-content: center;
+
+}
+
+.boutonsnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fr {
+    padding: 15px 30 px;
+
+
+}
+
+.listing {
+    border-top: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+footer {
+    width: 100%;
+    flex-shrink: 0;
+    background-color: #F2F2F2;
+    height: 100px;
+    color: #70757A;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul li {
+    margin: 10px;
+}
+
+.icon-inside {
+    position: relative;
+}
+
+input {
+    width: 600px;
+    padding: 15px;
+    margin: 4px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+}
+
+#logo-mic {
+    height: 25px;
+    width: 17px;
+    position: absolute;
+    right: 680px;
+    top: 15px;
+
+}
+
+#logo-loupe {
+    position: absolute;
+    left: 680px;
+    top: 20px;
+    height: 20px;
+    width: 19px
+}
+
+.icon-inside {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+#secondstyled {
+    border: 1px solid transparent;
+    line-height: 16px;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #3c4043;
+    border-radius: 3px;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+#secondstyled:hover {
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    cursor: pointer;
+
+}
